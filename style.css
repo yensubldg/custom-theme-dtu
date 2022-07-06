@@ -1,0 +1,55 @@
+/* base */
+
+a,
+button {
+  transition: all 0.3s;
+}
+
+#header {
+  background: #000;
+}
+#header #header-wrapper {
+  width: unset;
+  height: auto;
+}
+#header #header-wrapper .header-top {
+  background-color: rgba(255, 255, 255, 0.12);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+#header #header-wrapper .header-top .logo {
+  float: unset;
+  text-indent: 0;
+  background: unset;
+  padding: 10px;
+  height: unset;
+}
+#header #header-wrapper .header-top #nav li.first,
+#header #header-wrapper .header-top #nav li {
+  background: none;
+  height: unset;
+  width: unset;
+  margin: 0 5px;
+}
+#header #header-wrapper .header-top .language {
+  display: none;
+}
+#header #header-wrapper .header-top #nav li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+#header #header-wrapper .header-top #nav li a:hover a {
+  color: currentColor;
+}
+
+#header #header-wrapper #subheader {
+  position: unset;
+  display: none;
+}
+#header #header-wrapper #subheader .date-clock {
+  margin-top: 0;
+  padding-top: 40px;
+}

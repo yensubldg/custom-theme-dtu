@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Đăng ký tín chỉ",
+  "version": "1.0",
+  "description": "Đăng ký tín chỉ",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://mydtu.duytan.edu.vn/*",
+    "https://mydtu.duytan.edu.vn/*"
+  ],
+  "content_scripts": [],
+  "permissions": ["storage", "tabs", "scripting", "activeTab"],
+  "action": {},
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src 'self' 'unsafe-inline' https://mydtu.duytan.edu.vn/;"
+  }
+}
