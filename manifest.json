@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Đăng ký tín chỉ",
+  "name": "Custom theme MyDTU",
   "version": "1.0",
-  "description": "Đăng ký tín chỉ",
+  "description": "Custom theme for MyDTU",
   "background": {
     "service_worker": "background.js"
   },
