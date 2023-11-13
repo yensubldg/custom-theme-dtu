@@ -221,6 +221,26 @@ max-width: 135px;
   padding-top: 77px;
   z-index: 1;
 }
+#popout{
+  display: none;
+}
+#content .welcome, #middle_zone,#content .main-border-top .functionname,#content .main-border-bottom{
+      background: transparent!important;
+}
+#content .welcome .sitemap span img{display: none;}
+#wrapper{background: #312f2fc9;}
+#content .welcome .sitemap span .title{
+      font-weight: 600;
+    font-size: 20px;
+}
+#right_zone,#content .main-border-top,#content .main-border-center,#content .main-border-bottom{width: 100%!important;}
+#content .main-border-top{background: #e3e3e3;border-radius: 5px 5px 0 0;}
+#content .main-border-center{background: #e3e3e3;box-sizing: border-box;}
+#content .main-border-top .functionname{color: #000;}
+#content #content_border{border-right:0px;}
+#content .main-border-center{border-left: 0px;
+    border-right: 0px;}
+#footer .footer-legal{background: #fff;}
 </style>`;
   body.insertAdjacentHTML("afterend", styleAfter);
 })();
